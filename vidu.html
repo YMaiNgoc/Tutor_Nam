@@ -7,7 +7,7 @@
   <style>
    table, th, td {
   border:1px solid black;
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
 }
   </style>
 </head>
@@ -15,29 +15,26 @@
 <body>
   <h2>A basic HTML table</h2>
 
-<table style="width:50%" border-spacing: 30px;>
+<table style="width:200px" border-spacing: 30px;>
   <tr>
-    <th >a 
-      <th >1</th>
-    </th>
-    
-    
-    <th >b 
-      <th >2</th>
-    </th>
-    
+    <td  border:1px solid black;>
+      <table style="width: 200px;">
+        <tr>
+          <td>b</td>
+          <td>b</td>
+        </tr>
+        <tr><td>b</td>
+          <td>b</td>
+        </tr>
+      </table>
+       </td>
+    <td  border:1px solid black;>aaa</td>
   </tr>
   <tr>
-    <td >c
-      <th >1</th>
-    </td>
-   
+    <td border:1px solid black;>aa </td>
+    <td border:1px solid black;>aaa</td>
+  </tr>
   
-    <td >d 
-      <th >2</th>
-    </td>
-    
-  </tr>
  
 </table>
 </body>
